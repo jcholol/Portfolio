@@ -1,3 +1,3 @@
 # Portfolio
 
-My Adaptation of [simplefolio]https://github.com/cobiwave/simplefolio
+My Adaptation of [simplefolio](https://github.com/cobiwave/simplefolio)
