@@ -248,12 +248,12 @@ import {
           color: tagColors["C#"],
         },
         {
-          name: "SQLite",
-          color: tagColors["SQLite"],
-        },
-        {
           name: ".NET",
           color: tagColors[".NET"],
+        },
+        {
+          name: "SQLite",
+          color: tagColors["SQLite"],
         },
       ],
       image: chilpass,
