@@ -42,8 +42,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "project",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -157,7 +157,7 @@ import {
       company_name: "Cross Reality Collaboration Sandbox",
       icon: uw,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2020 - June 2020",
       points: [
         "Collaborated with a graduate student for his thesis; Augmented Space Library (ASL): Network Infrastructure.",
         "Developed Minecraft clone in Virtual Reality to stimulate/stress test stability for 100+ users on ASL network.",

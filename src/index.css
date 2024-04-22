@@ -115,6 +115,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+.youtube-icon-container {
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+.youtube-icon-container:hover {
+  transform: scale(1.1);
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
