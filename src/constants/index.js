@@ -61,12 +61,12 @@ import {
       icon: mobile,
     },
     {
-      title: "iOS Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: web,
     },
     {
-      title: "hello world",
-      icon: creator,
+      title: "iOS Developer",
+      icon: mobile,
     },
   ];
   
@@ -181,32 +181,42 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
+  const tagColors = {
+    "Python": "bg-gradient-to-r from-red-500 to-green-500",
+    "Twin-Comparison": "bg-gradient-to-r from-purple-500 to-red-500",
+    "OpenCV": "bg-gradient-to-r from-purple-500 to-black-500",
+    "C#": "bg-gradient-to-r from-purple-500 to-blue-500",
+    "SQLite": "bg-gradient-to-r from-cyan-500 to-red-500",
+    ".NET": "bg-gradient-to-r from-cyan-500 to-green-500",
+    "Unity3D": "bg-gradient-to-r from-gray-500 to-brown-500",
+  };
+
   const projects = [
     {
       name: "Detect It",
@@ -214,15 +224,15 @@ import {
       tags: [
         {
           name: "Python",
-          bgColor: "blue-500",
+          color: tagColors["Python"],
         },
         {
           name: "Twin-Comparsion",
-          color: "green-text-gradient",
+          color: tagColors["Twin-Comparison"],
         },
         {
           name: "OpenCV",
-          color: "pink-text-gradient",
+          color: tagColors["OpenCV"],
         },
       ],
       image: detectit,
@@ -235,15 +245,15 @@ import {
       tags: [
         {
           name: "C#",
-          color: "blue-text-gradient",
+          color: tagColors["C#"],
         },
         {
           name: "SQLite",
-          color: "green-text-gradient",
+          color: tagColors["SQLite"],
         },
         {
           name: ".NET",
-          color: "pink-text-gradient",
+          color: tagColors[".NET"],
         },
       ],
       image: chilpass,
@@ -256,15 +266,15 @@ import {
       tags: [
         {
           name: "C#",
-          color: "bg-gradient-to-r from-cyan-500 to-blue-500",
+          color: tagColors["C#"],
         },
         {
-          name: ".NET",
-          color: "bg-gradient-to-r from-cyan-500 to-green-500",
+          name: "Unity3D",
+          color: tagColors["Unity3D"],
         },
         {
           name: "SQLite",
-          color: "bg-gradient-to-r from-cyan-500 to-red-500",
+          color: tagColors["SQLite"],
         },
       ],
       image: DiC,
@@ -278,11 +288,11 @@ import {
       tags: [
         {
           name: "C#",
-          color: "blue-text-gradient",
+          color: tagColors["C#"],
         },
         {
-          name: "Unity",
-          color: "green-text-gradient",
+          name: "Unity3D",
+          color: tagColors["Unity3D"],
         },
       ],
       image: smg,
