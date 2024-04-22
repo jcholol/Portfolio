@@ -9,17 +9,17 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}> 
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />   
+          <div className="w-5 h-5 rounded-full bg-[#5eb9ff]" />
+          <div className="w-1 sm:h-80 h-40 blue-gradient" />   
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm 
-            <span className="text-[#915eff]"> Jonathan
+            <span className="text-[#5eb9ff]"> Jonathan
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A Graduate Computer Science Student @ University of Washington <br className="sm:block hidden" />
+            A Graduate Computer Science Student @ <span className="text-[#85754d]">University of Washington </span> <br className="sm:block hidden" />
 
             {/* so if you've 
             got any opportunities for me to tackle, please reach out to me on my contact page,
