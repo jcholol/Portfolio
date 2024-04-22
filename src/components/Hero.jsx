@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A Computer Science graduate student at University of Washington <br className="sm:block hidden" />
+            A Graduate Computer Science Student @ University of Washington <br className="sm:block hidden" />
 
             {/* so if you've 
             got any opportunities for me to tackle, please reach out to me on my contact page,
