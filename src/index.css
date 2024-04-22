@@ -124,6 +124,26 @@
   transform: scale(1.1);
 }
 
+.service-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-icon-container:hover {
+  transform: scale(1.1);
+}
+
+.service-icon {
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.service-icon-container:hover .service-icon {
+  width: 24px;
+  height: 24px;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
