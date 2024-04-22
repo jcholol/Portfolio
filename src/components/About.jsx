@@ -49,7 +49,7 @@ const About = () => {
       className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in building games, windows applications, web applications, and am currently learning iOS/Mobile development.
+        I'm an aspiring software developer with experience in building games, windows applications, web applications, and am currently learning iOS/Mobile development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 place-content-center'>
