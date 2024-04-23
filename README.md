@@ -1,10 +1,8 @@
-# <h1 align="center">Personal Website</h1> 
-
-# [Homepage](https://chojonathan.com)
+# <h1 align="center">[Portfolio](https://chojonathan.com)</h1> 
 
 ## About
 
-Personal Portfolio built with ThreeJS, ReactJS, and TailwindCSS. Built to showcase my projects and experiences!
+This repository is for my portfolio built using ThreeJS, ReactJS, and TailwindCSS to showcase my projects and experiences!
 
 ## Key Features
 
