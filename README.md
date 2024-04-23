@@ -1,4 +1,4 @@
-# <h1 align="center">[Portfolio](https://chojonathan.com)</h1> 
+# [Portfolio](https://chojonathan.com)
 
 ## About
 
