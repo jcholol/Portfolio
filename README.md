@@ -15,7 +15,7 @@ This repository is for my portfolio built using ThreeJS, ReactJS, and TailwindCS
 
 Jonathan Cho
 
-Template: https://youtu.be/0fYi8SGA20k?si=fqLSZTT1uw5ZPsGf
+Template: https://youtu.be/0fYi8SGA20k?si=C0OeRBdx9RDWl7db
 
 ## Contact Me
 
